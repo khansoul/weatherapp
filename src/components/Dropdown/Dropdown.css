@@ -1,0 +1,32 @@
+.DropdownContainer{
+    position: absolute;
+    background-color: white;
+    margin-top:21px;
+    max-height: 100px;
+    width:99.2%;
+    overflow-y: scroll;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.WeatherInfo{
+    width:70%
+}
+
+.WeatherIcon{
+    width: 25%
+}
+
+.WeatherIcon > img {
+    width: 100%;
+    margin-top:25%;
+}
+
+.Title{
+    font-size: 40px;
+}
+
+.Temperature, .Description{
+    font-size: 20px;
+}
