@@ -16,7 +16,7 @@ function App() {
       return;
     }
 
-    let locationSearchQuery = `https://www.metaweather.com/api/location/search/?query=${locationSearchValue}`;
+    let locationSearchQuery = `https://meta-weather.now.sh/api/location/search/?query=${locationSearchValue}`;
     fetch(locationSearchQuery)
       .then((res) => res.json())
       .then((result) => {
@@ -28,7 +28,7 @@ function App() {
   };
 
   const onClickHandler = (id) => {
-    let locationWeatherQuery = `https://www.metaweather.com/api/location/${id}/`;
+    let locationWeatherQuery = `https://meta-weather.now.sh/api/location/${id}/`;
     fetch(locationWeatherQuery)
       .then((res) => res.json())
       .then((result) => {
