@@ -53,6 +53,9 @@ function App() {
         />
         {locationWeather && <WeatherCard locationWeather={locationWeather} />}
       </div>
+      <div className="Footer">
+      Built with <a href="https://www.metaweather.com/">MetaWeather</a>
+      </div>
     </div>
   );
 }
